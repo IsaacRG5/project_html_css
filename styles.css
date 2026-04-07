@@ -1,0 +1,21 @@
+.header{
+ background-color:tan;
+ padding: 20px 30px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+nav {
+    display: contents;
+    gap: 20px;
+    
+}
+nav ul{
+    display: flex;  
+    gap: 25px;
+    transition: 0,3s;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
