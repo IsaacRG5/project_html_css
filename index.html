@@ -1,28 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <title>Mi Portafolio</title>
+
+    <!-- Vinculamos el CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <nav class="header">
-        <h1>Mi project</h1>
-        <ul class="list">
-            <li><a href="#sobre-mi">Sobre mi</a></li>
-            <li><a href="#projecto">projecto</a></li>
-            <li><a href="#contacto">contacto</a></li>
-            <li><a href="moscota.html">mascotas</a></li>
-        </ul>
-
-    <nav>
-</header>
 <body>
-    <section id="Sobre-mi">
-        <h2>Sobre mi</h2>
 
+    <!-- ===== HEADER ===== -->
+    <header>
+        <h1>Isaac David Ortiz Guzman </h1>
+
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="moscota.html">Mascotas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== SOBRE MI ===== -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Hola, Mi nombre es Isaac Ortiz, tengo 17 años, soy coder en riwi, me apasiona todo lo que tiene que ver con la programacion, 
+            ademas, me gutas jugar a voleibol.
+        </p>
     </section>
-    
+
+    <!-- ===== PROYECTOS ===== -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li><a href="#">Sistema de Inventario</a></li>
+            <li><a href="#">Juego en Python</a></li>
+            <li><a href="#">Calculadora de Notas</a></li>
+        </ul>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Escribe tu nombre">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Escribe tu correo">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
 </body>
 </html>
