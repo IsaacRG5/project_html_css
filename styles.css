@@ -9,6 +9,7 @@ header {
     color: white;
     padding: 15px;
     text-align: center;
+    
 }
 
 nav ul {
@@ -30,11 +31,82 @@ nav a:hover {
     color: #d1c388;
 }
 
-.proyectos {
+.seccion {
     padding: 20px;
     margin: 20px;
     background-color: white;
     border-radius: 10px;
+}
+
+#proyectos{
+    background-color: #555;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.titulo-seccion{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    justify-content: center;
+    justify-items: center;
+}
+
+p{
+    text-align: justify;
+
+}
+
+.lista-project{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 50px;
+    padding: 2px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.lista-project li{
+    display: flex;
+}
+
+
+.card-titulo{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.card{
+    background-color: #555;
+    padding: 1.5rem;
+    border: 4px solid #d1c388;
+    box-shadow: 0px 2px 3px  #ffffff;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+
+
+}    
+
+@media (max-width: 480px) {
+    .lista-project {
+        grid-template-columns: 1fr; /* Una sola columna */
+        gap: 1.5rem;
+    }
+    
+    #proyectos {
+        
+        gap:60px;
+        padding: 10px;
+    }
 }
 
 form {
@@ -59,6 +131,7 @@ button:hover {
 
 }
 
+/* Mascotas*/
 .cuerpo2{
     background-image: url(img.webp);
     text-align: center;
