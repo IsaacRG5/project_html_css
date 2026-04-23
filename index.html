@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+    <header>
+        <h1>Isaac David Ortiz Guzman </h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about me">Sobre mi</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="pets.html">Mascotas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about me" class="seccion">
+        <h2 class="title-seccion" >Sobre mi</h2>
+        <p id="texto-sobre-mi">
+            Me llamo Isaac y soy desarrollador en prácticas en Riwi; me interesan mucho el desarrollo de software y la tecnología. <br><br>
+
+💻 Actualmente tengo conocimientos básicos de HTML, CSS y Python, y me gusta crear proyectos que me ayuden a mejorar mis habilidades de programación. <br><br>    
+
+🚀 Mi objetivo es especializarme en desarrollo backend y móvil, creando aplicaciones útiles y eficientes. <br><br>
+
+📚 Ahora mismo estoy aprendiendo y explorando tecnologías como: <br>
+
+*Python <br>
+
+*Go (Golang) <br>   
+
+*Bases de datos (DB) <br><br>
+
+🏐 Aparte de la programación, me gusta jugar al voleibol los fines de semana. <br><br>
+
+💡 Mi inspiración para empezar a programar es mi hermano, que lleva mucho tiempo en este campo. <br><br>
+ 
+🛠 Tecnologías que estoy aprendiendo <br>
+
+HTML • CSS • Python • JavaScript • Next.js <br><br>
+
+📈 Objetivo <br>
+
+Seguir aprendiendo desarrollo de software, crear proyectos reales y mejorar cada día como desarrollador.
+        </p>
+         <button type="button" id="btn-about" >Ver menos</button>
+    </section>
+    
+    <section class="projects seccion" id="projects">
+        
+            <h2 class="title-seccion">Proyectos</h2 >
+            <ul class="lista-project">
+                <li>
+                    <div class="card">
+                        <h3 class="card-title">Inventory System</h3>
+                        <p> Una aplicación de consola desarrollada en Python para gestionar el inventario de productos. Permite a los usuarios añadir, buscar, actualizar y eliminar productos, generar estadísticas y manejar archivos CSV de forma segura.</p>
+                        <a href="https://github.com/IsaacRG5/Registro_de_productos/tree/feature/2-codigo" target="_blank">Sistema de Inventario</a>
+
+                    </div>  
+                </li>
+                <li>
+                    <div class="card">
+                        <h3 class="card-title">Python Game</h3>
+                        <p>Este es un juego de cultura general en el que se te plantearán 5 preguntas; cada pregunta vale 20 puntos, que luego se reflejarán en la clasificación.</p>
+                        <a href="https://github.com/IsaacRG5/juego/tree/feature/2-codigo" target="_blank">Python Game</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="card" >
+                        <h3 class="card-title">Parking Lot</h3>
+                        <p> Se trata de un sistema de aparcamiento que muestra el estado actual del aparcamiento, incluyendo el número de coches que hay y las plazas libres disponibles. </p>
+                        <a href="https://github.com/IsaacRG5/Parqueadero/tree/feature/3-codigo" target="_blank" >Parking Lot</a>
+                    </div>
+                </li>
+            </ul>
+            <p id="mensaje">Has click para ocultar</p>
+            <button type="button" class="toggle ">ocultar</button>
+    </section>
+
+    
+    <section id="contact" class="seccion">
+        <h2 class="title-seccion">Contacto</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Escribe tu nombre">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Escribe tu correo">
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
